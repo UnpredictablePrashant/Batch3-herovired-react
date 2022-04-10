@@ -1,0 +1,15 @@
+.navbar{    
+    height: 80px;
+    background-color: #373b6a;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.textbox{    
+    margin-right: 5px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #373b6a;
+    border-color: black;
+}
