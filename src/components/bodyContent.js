@@ -20,7 +20,7 @@ return(
 
         <div id="row">
             <div id="movieblock">
-            <img alt="pic"   src = {pic}/>
+            <img src = {pic}/>
                 <div className="moviename">
                     <strong>Antman</strong>
                     <span className='ratings'  style={{color: 'ratings' > "7"? "red" : "green"}} >5.0</span>

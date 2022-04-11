@@ -1,8 +1,8 @@
 .navbar{
     
-    height: 80px;
-    background-color: #373b6a;
-    display: flex;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(97,95,203,1) 0%,rgba(28,18,174,1) 50%,rgba(92,72,222,1) 100%);
+       display: flex;
     align-items: center;
     justify-content: flex-end;
 
@@ -10,15 +10,15 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#21254b;
+    background: linear-gradient(to bottom, rgba(61,44,158,1) 0%,rgba(61,44,158,1) 100%);
 
 }
-.textbox{
+    .textbox{
     
     margin-right: 5px;
     border-radius: 15px;
-    padding: 15px;
-    background-color: #373b6a;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgba(44,50,158,1) 0%,rgba(44,50,158,1) 100%);
     border-color: black;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 #movieblock:hover .movieDescription {
     display: block;
-    transition: all 0.25s ease-in-out;
+    transition: all 1s ease-in-out;
     bottom: 0;
 }
 
@@ -58,7 +58,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: #373b6a;
+    background: linear-gradient(to bottom, rgba(30,36,154,1) 0%,rgba(42,65,216,1) 50%,rgba(32,52,202,1) 51%,rgba(126,142,232,1) 100%); 
 }
 
 .moviename strong{
@@ -75,7 +75,7 @@ body{
 }
 
 .movieDescription{
-    background-color: white;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); 
     padding: 30px 15px;
     position:absolute;
     bottom: -100%;
