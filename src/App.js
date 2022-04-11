@@ -1,10 +1,12 @@
+ 
 import './App.css';
-import Navheader from './components/headerComponent/header';
+import Imgblock from './components/bodyComponent/bodyContent';
+ 
 
 function App() {
   return (
     <div className="App">
-      <Navheader></Navheader>
+      <Imgblock></Imgblock>
     </div>
   );
 }
